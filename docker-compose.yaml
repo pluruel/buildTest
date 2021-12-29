@@ -4,7 +4,6 @@ services:
   builder:
     build :
       target: builder
-      context: .
+      context: /var/jenkins_home/workspace/test3
     volumes:
       - .:/app
-
